@@ -1,0 +1,12 @@
+<div *ngFor="let pos of posts; index as id">
+    <h3>
+        <a [title]="'Detalles de Imagen' + pos.name">
+        {{pos.name}}
+        </a>
+    </h3>
+    <p *ngIf="pos.description">
+        <img src="{{pos.img}}"> <br>
+        Id : {{pos.id}}<br>
+        Rank : {{pos.rank}}<br>
+        Descripción : {{pos.description}}
+    </p>  

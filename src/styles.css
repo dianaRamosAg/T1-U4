@@ -3,7 +3,7 @@
 /* Global Styles */
 
 * {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Century Gothic', Arial, sans-serif;
     color: #616161;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -27,6 +27,7 @@
   
   h1 {
     font-size: 32px;
+    text-align: center;
   }
   
   h2 {
