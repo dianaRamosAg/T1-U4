@@ -29,7 +29,7 @@
     font-size: 32px;
     text-align: center;
   }
-  
+
   h2 {
     font-size: 20px;
   }
@@ -46,7 +46,7 @@
   
   a {
     cursor: pointer;
-    color: #1976d2;
+    color:darkslategrey;
     text-decoration: none;
   }
   
